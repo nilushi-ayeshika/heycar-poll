@@ -9,6 +9,11 @@ import {
 
 import QuestionAPI from '../../api/QuestionApi'
 
+/**
+ * Get Question Details
+ * @param id 
+ * @returns 
+ */
 export const getQuestionDetails =
   (id: number) => async (dispatch: Dispatch<QuestionsDetailsDispatchTypes>) => {
     try {

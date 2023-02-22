@@ -11,5 +11,4 @@ export const RootReducer = () =>
     [questionState]: questionStateReducer,
     [questionDetailsState]: questionDetailsReducer,
   })
-
 export default RootReducer
